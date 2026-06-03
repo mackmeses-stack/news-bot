@@ -12,8 +12,7 @@ from telegram.error import TelegramError
 # ── تنظیمات ─────────────────────────────────────────────────────────────────
 BOT_TOKEN         = os.environ.get("BOT_TOKEN", "8773445175:AAEoblQH6pMmM3sFFgfRTxtUMas2_n1DnTE")
 CHAT_ID           = os.environ.get("CHAT_ID", "7697981347")
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "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")
-
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 MAX_NEWS_PER_FEED = 5
 
 RSS_FEEDS = [
